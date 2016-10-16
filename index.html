@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Inwavers</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/visual.js"></script>
+    <script type="text/javascript" src="js/utility.js"></script>
+    <script type="text/javascript" src="js/collisions.js"></script>
+    <script type="text/javascript" src="js/screenUpdate.js"></script>
+    <script type="text/javascript" src="js/assets.js"></script>
+</head>
+
+<body background="assets/images/Background.jpg">
+    <canvas id="myCanvas" width="1280" height="800"></canvas>
+
+    <script>
+        // Inits
+        window.onload = function init() {
+
+            // start game
+            var game = new GF();
+            game.start();
+        };
+    </script>
+</body>
+
+</html>
